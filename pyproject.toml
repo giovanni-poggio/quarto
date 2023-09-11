@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "quarto"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [
+    { include = "quarto" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+frozendict = "^2.3.8"
+tqdm = "^4.66.1"
+snakeviz = "^2.2.0"
+numpy = "^1.25.2"
+networkx = "^3.1"
+matplotlib = "^3.7.2"
+pydot = "^1.4.2"
+graphviz = "^0.20.1"
+scipy = "^1.11.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
